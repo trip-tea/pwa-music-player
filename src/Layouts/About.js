@@ -13,7 +13,7 @@ function About({ uiState, setUiState }) {
         "In simple words, it is a music player without ads or distractions that allows you to listen to chillpop music (hence the name...) while you’re coding or doing other work. It is just a weekend project and uses music available on Chillhop (details below)";
     let questionTwo = "Who made this?";
     let answerTwo =
-        "This project was created by Priyanshu Bharti. A Computer Applications student, developer, and designer who likes creating awesome things that live on the internet! If you like what you just saw and would like to see more, then scroll below to check his socials!";
+        "This project was created by Tripti Sharma. A Computer Applications student, developer, and designer who likes creating awesome things that live on the internet! If you like what you just saw and would like to see more, then scroll below to check her socials!";
 
     return (
         <div className={`about ${uiState.aboutShown ? "" : "about--hidden"}`}>
@@ -40,7 +40,7 @@ function About({ uiState, setUiState }) {
 
                 {/* Second Headline */}
                 <div className="about-group">
-                    <p>Priyanshu's</p>
+                    <p>Tripti's</p>
                     <AboutHeadline content="Socials" />
                 </div>
 
@@ -48,18 +48,18 @@ function About({ uiState, setUiState }) {
                 <div className="about-socials">
                     <div className="about-socials-group">
                         <RiInstagramLine className="about-socials-icon" />
-                        <p className="about-socials-text">@_priyanshubharti</p>
+                        <p className="about-socials-text">@trip__tea</p>
                     </div>
                     <div className="about-socials-group">
                         <RiLinkedinBoxFill className="about-socials-icon" />
                         <p className="about-socials-text">
-                            /in/priyanshubharti
+                        /in/tripti-sharma-a718aa186/
                         </p>
                     </div>
                     <div className="about-socials-group">
                         <RiMailLine className="about-socials-icon" />
                         <p className="about-socials-text">
-                            priyanshub25dev@gmail.com
+                            triptisharma1699@gmail.com
                         </p>
                     </div>
                 </div>
